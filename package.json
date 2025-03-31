@@ -1,0 +1,24 @@
+{
+  "name": "candystore",
+  "version": "1.0.0",
+  "description": "This project is dedicated to designing and maintaining automated test cases using **Cypress** for the following live site:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Infrael/CandyStore.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Infrael/CandyStore/issues"
+  },
+  "homepage": "https://github.com/Infrael/CandyStore#readme",
+  "devDependencies": {
+    "cypress": "^14.2.0"
+  }
+}
