@@ -1,8 +1,5 @@
 describe('Basket Page Tests', () => {
-  let skipBeforeEach = false;
-
   beforeEach(() => {
-    if (skipBeforeEach) return;
     cy.visit('/sweets');
   });
 
@@ -131,8 +128,9 @@ describe('Basket Page Tests', () => {
         .should('contain.text', parseFloat(addedItems[0].price));
     });
   });
+});
 
-  skipBeforeEach = true;
+describe('Basket Form Tests', () => {
   it('TC_2.5.1: Submit Correctly the form and make a purchase', () => {
     cy.visit('/basket');
 
